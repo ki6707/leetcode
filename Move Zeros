@@ -1,0 +1,12 @@
+#  Problem statement
+# Move all zeros to the end of the list while keeping the other numbers in the same order
+a = [1, 0, 2, 0, 3, 4, 0]
+b=[]
+c=[]
+for x in a:
+    if(x!=0):
+        b.append(x)
+    else:
+        c.append(x)
+b=b+c
+print(b)
