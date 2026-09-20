@@ -1,0 +1,15 @@
+a = [10, 50, 20, 40, 30]
+
+b=a[0]
+
+c=a[0]
+
+for x in a:
+  
+  if(x>b):
+    b=x
+
+  elif(x!=b and x>c):
+    c=x
+
+print(c)
