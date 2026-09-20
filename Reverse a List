@@ -1,0 +1,10 @@
+a = [10, 20, 30, 40, 50]
+b=[]
+for x in range(len(a)):
+    if(x==0):
+        continue
+    else:
+        b.append(a[-x])
+else:
+    b.append(a[0])
+print(b)
